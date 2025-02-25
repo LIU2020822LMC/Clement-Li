@@ -1,0 +1,23 @@
+body{
+  background-image: url(数字时钟背景图片/888.jpg);
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#clock-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock{
+  font-family: "楷体";
+  font-size: 10.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #a2f1ae;
+  backdrop-filter: blur(8px);
+  width: 100%;
+}
