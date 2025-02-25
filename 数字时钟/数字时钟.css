@@ -1,8 +1,4 @@
-@media (max-width: 767px) {
-    body {
-        font-size: 12px;
-    }
-}
+
 body{
   background-image: url(数字时钟背景图片/888.jpg);
   margin: 0;
