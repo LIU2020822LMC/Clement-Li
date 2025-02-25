@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+}
 body{
   background-image: url(数字时钟背景图片/888.jpg);
   margin: 0;
