@@ -1,0 +1,56 @@
+body{
+  font-family: "kaiti";
+  font-size: 2rem;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  background-image: url(123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+.choice{
+  margin: 30px;
+}
+button{
+  font-size: 3.5em;
+  min-width: 150px;
+  border-radius: 200px;
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+  cursor: pointer;
+  transition: background-image 0.5s;
+}
+button:hover{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+button:active{
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+#player,#computer{
+  font-size: 1.5em;
+}
+#gameresult{
+  font-size: 2em;
+  margin-top: 5px;
+}
+.redResult{
+ color: red;
+}
+.socre{
+  font-size: 1.2em;
+}
+.winColor {
+  color: #5ee7df;
+}
+.pingshou{
+  color: rgb(248, 248, 248);
+}
+#playerscore{
+  color: #5ee7df;
+}
+#computerscore{
+  color: red;
+}
